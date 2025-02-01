@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${license}"
+
+[[mods]]
+    modId = "${mod_id}"
+    version = "${version}"
+    displayName = "${mod_name}"
+    displayURL = "https://modrinth.com/mod/paxels-for-dummies"
+    issueTrackerURL = "https://github.com/GamingEinstein/Paxels-for-Dummies/issues"
+    logoFile = "logo.png"
+    credits = "${credits}"
+    authors = "${authors}"
+    description = '''${mod_description}'''
+    itemIcon = "paxelsfordummies:netherite_paxel"
+
+[[dependencies."${mod_id}"]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[${neoforge_version},)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies."${mod_id}"]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "${minecraft_version_range}"
+    ordering = "NONE"
+    side = "BOTH"

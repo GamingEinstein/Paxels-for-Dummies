@@ -1,0 +1,13 @@
+// 1.21.1	2025-02-01T08:42:10.7959878	Tags for minecraft:item mod id paxelsfordummies
+d0d9fa59ba0eb2643a381a8ee7c3e3614e56526b data/c/tags/item/tools.json
+d0d9fa59ba0eb2643a381a8ee7c3e3614e56526b data/c/tags/item/tools/melee_weapon.json
+d0d9fa59ba0eb2643a381a8ee7c3e3614e56526b data/c/tags/item/tools/mining_tool.json
+d0d9fa59ba0eb2643a381a8ee7c3e3614e56526b data/c/tags/item/tools/paxel.json
+ed87013152d08e3cb23487f0ff0ae34466dec5d1 data/minecraft/tags/item/breaks_decorated_pots.json
+ed87013152d08e3cb23487f0ff0ae34466dec5d1 data/minecraft/tags/item/cluster_max_harvestables.json
+ed87013152d08e3cb23487f0ff0ae34466dec5d1 data/minecraft/tags/item/enchantable/durability.json
+ed87013152d08e3cb23487f0ff0ae34466dec5d1 data/minecraft/tags/item/enchantable/mining.json
+ed87013152d08e3cb23487f0ff0ae34466dec5d1 data/minecraft/tags/item/enchantable/mining_loot.json
+ed87013152d08e3cb23487f0ff0ae34466dec5d1 data/minecraft/tags/item/enchantable/sharp_weapon.json
+ed87013152d08e3cb23487f0ff0ae34466dec5d1 data/minecraft/tags/item/enchantable/weapon.json
+d072dd72a00e96eac0e8734332ebc5f4835f90d5 data/minecraft/tags/item/piglin_loved.json
