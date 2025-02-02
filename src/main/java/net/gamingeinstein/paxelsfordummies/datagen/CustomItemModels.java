@@ -1,6 +1,6 @@
 package net.gamingeinstein.paxelsfordummies.datagen;
 
-import net.gamingeinstein.paxelsfordummies.PaxelsForDummiesForge;
+import net.gamingeinstein.paxelsfordummies.PaxelsForDummies;
 import net.gamingeinstein.paxelsfordummies.registries.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class CustomItemModels extends ItemModelProvider {
     public CustomItemModels(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, PaxelsForDummiesForge.MOD_ID, existingFileHelper);
+        super(output, PaxelsForDummies.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -28,6 +28,6 @@ public class CustomItemModels extends ItemModelProvider {
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/handheld")).texture("layer0",
-                new ResourceLocation(PaxelsForDummiesForge.MOD_ID, "item/" + item.getId().getPath()));
+                new ResourceLocation(PaxelsForDummies.MOD_ID, "item/" + item.getId().getPath()));
     }
 }

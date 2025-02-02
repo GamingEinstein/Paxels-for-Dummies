@@ -1,6 +1,6 @@
 package net.gamingeinstein.paxelsfordummies.datagen;
 
-import net.gamingeinstein.paxelsfordummies.PaxelsForDummiesForge;
+import net.gamingeinstein.paxelsfordummies.PaxelsForDummies;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import java.util.concurrent.CompletableFuture;
 
-@Mod.EventBusSubscriber(modid = PaxelsForDummiesForge.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = PaxelsForDummies.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {

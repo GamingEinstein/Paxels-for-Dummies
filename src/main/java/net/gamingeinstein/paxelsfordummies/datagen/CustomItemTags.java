@@ -1,6 +1,6 @@
 package net.gamingeinstein.paxelsfordummies.datagen;
 
-import net.gamingeinstein.paxelsfordummies.PaxelsForDummiesForge;
+import net.gamingeinstein.paxelsfordummies.PaxelsForDummies;
 import net.gamingeinstein.paxelsfordummies.registries.ModItems;
 import net.gamingeinstein.paxelsfordummies.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -17,7 +17,7 @@ import java.util.concurrent.CompletableFuture;
 public class CustomItemTags extends ItemTagsProvider {
     public CustomItemTags(PackOutput p_275343_, CompletableFuture<HolderLookup.Provider> p_275729_,
                           CompletableFuture<TagLookup<Block>> p_275322_, @Nullable ExistingFileHelper existingFileHelper) {
-        super(p_275343_, p_275729_, p_275322_, PaxelsForDummiesForge.MOD_ID, existingFileHelper);
+        super(p_275343_, p_275729_, p_275322_, PaxelsForDummies.MOD_ID, existingFileHelper);
     }
 
     @Override

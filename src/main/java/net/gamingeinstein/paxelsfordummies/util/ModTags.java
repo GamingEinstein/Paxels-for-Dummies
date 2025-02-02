@@ -1,6 +1,6 @@
 package net.gamingeinstein.paxelsfordummies.util;
 
-import net.gamingeinstein.paxelsfordummies.PaxelsForDummiesForge;
+import net.gamingeinstein.paxelsfordummies.PaxelsForDummies;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -13,7 +13,7 @@ public class ModTags {
         public static final TagKey<Block> MINEABLE_WITH_PAXEL = forgeTag("mineable/paxel");
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(PaxelsForDummiesForge.MOD_ID, name));
+            return BlockTags.create(new ResourceLocation(PaxelsForDummies.MOD_ID, name));
         }
 
         private static TagKey<Block> forgeTag(String name) {
@@ -34,7 +34,7 @@ public class ModTags {
 
 
         private static TagKey<Item> tag(String name) {
-            return ItemTags.create(new ResourceLocation(PaxelsForDummiesForge.MOD_ID, name));
+            return ItemTags.create(new ResourceLocation(PaxelsForDummies.MOD_ID, name));
         }
 
         private static TagKey<Item> forgeTag(String name) {
