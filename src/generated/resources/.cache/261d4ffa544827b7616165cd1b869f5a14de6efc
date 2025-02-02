@@ -1,0 +1,11 @@
+// 1.20.1	2025-02-01T20:11:23.6157972	Tags for minecraft:item mod id paxelsfordummies
+64dc89347621097fba7e74cca9e2170ac678724a data/forge/tags/items/tools.json
+adffbaa62418d8ab413d82fbc4971674e658c077 data/forge/tags/items/tools/paxels.json
+388013c192de3e97a4a71da89777d7ad458a7282 data/forge/tags/items/tools/paxels/diamond.json
+d072dd72a00e96eac0e8734332ebc5f4835f90d5 data/forge/tags/items/tools/paxels/gold.json
+4c750ae575ba21b6bdddcc03b7d9ac8b83ed9463 data/forge/tags/items/tools/paxels/iron.json
+712b69030e7e4e51b960dab07c5a07b4a1f714d6 data/forge/tags/items/tools/paxels/netherite.json
+6f2fab44135eaa5b35862c762e30046080d48f73 data/forge/tags/items/tools/paxels/stone.json
+92f90cd050e6052fcd58dac8e91fa1f064d43e22 data/forge/tags/items/tools/paxels/wood.json
+adffbaa62418d8ab413d82fbc4971674e658c077 data/minecraft/tags/items/cluster_max_harvestables.json
+64dc89347621097fba7e74cca9e2170ac678724a data/minecraft/tags/items/tools.json

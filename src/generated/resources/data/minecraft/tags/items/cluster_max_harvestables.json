@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#forge:tools/paxels/wood",
+    "#forge:tools/paxels/stone",
+    "#forge:tools/paxels/iron",
+    "#forge:tools/paxels/gold",
+    "#forge:tools/paxels/diamond",
+    "#forge:tools/paxels/netherite"
+  ]
+}
