@@ -22,6 +22,7 @@ public class CustomItemTags extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        this.tag(ItemTags.PIGLIN_LOVED).add(ModItems.GOLDEN_PAXEL.get());
         this.tag(Tags.Items.TOOLS).addTag(ModTags.Items.PAXELS);
         this.tag(ItemTags.TOOLS).addTag(ModTags.Items.PAXELS);
         this.tag(ModTags.Items.PAXELS)
