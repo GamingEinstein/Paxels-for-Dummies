@@ -29,7 +29,13 @@ public class CustomItemTags extends ItemTagsProvider {
         tag(ItemTags.MINING_LOOT_ENCHANTABLE).addTag(ModTags.Items.PAXELS);
         tag(ItemTags.DURABILITY_ENCHANTABLE).addTag(ModTags.Items.PAXELS);
         tag(ItemTags.PIGLIN_LOVED).add(ModItems.GOLDEN_PAXEL.get());
-        tag(ItemTags.CLUSTER_MAX_HARVESTABLES).addTag(ModTags.Items.PAXELS);
+        tag(ItemTags.CLUSTER_MAX_HARVESTABLES)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
         tag(Tags.Items.TOOLS)
                 .add(ModItems.WOODEN_PAXEL.get())
                 .add(ModItems.STONE_PAXEL.get())

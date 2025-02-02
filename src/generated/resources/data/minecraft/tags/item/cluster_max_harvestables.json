@@ -1,5 +1,10 @@
 {
   "values": [
-    "#c:tools/paxel"
+    "paxelsfordummies:wooden_paxel",
+    "paxelsfordummies:stone_paxel",
+    "paxelsfordummies:iron_paxel",
+    "paxelsfordummies:golden_paxel",
+    "paxelsfordummies:diamond_paxel",
+    "paxelsfordummies:netherite_paxel"
   ]
 }
