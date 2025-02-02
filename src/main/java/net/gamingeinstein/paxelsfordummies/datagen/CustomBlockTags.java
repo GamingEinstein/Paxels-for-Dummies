@@ -1,6 +1,6 @@
 package net.gamingeinstein.paxelsfordummies.datagen;
 
-import net.gamingeinstein.paxelsfordummies.PaxelsForDummies;
+import net.gamingeinstein.paxelsfordummies.PaxelsForDummiesForge;
 import net.gamingeinstein.paxelsfordummies.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -12,7 +12,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class CustomBlockTags extends net.minecraftforge.common.data.BlockTagsProvider {
     public CustomBlockTags(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, PaxelsForDummies.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, PaxelsForDummiesForge.MOD_ID, existingFileHelper);
     }
 
     @Override

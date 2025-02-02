@@ -1,6 +1,6 @@
 package net.gamingeinstein.paxelsfordummies.registries;
 
-import net.gamingeinstein.paxelsfordummies.PaxelsForDummies;
+import net.gamingeinstein.paxelsfordummies.PaxelsForDummiesForge;
 import net.gamingeinstein.paxelsfordummies.item.PaxelItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PaxelsForDummies.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PaxelsForDummiesForge.MOD_ID);
 
     // Paxels
     public static final RegistryObject<Item> WOODEN_PAXEL = ITEMS.register("wooden_paxel",
@@ -32,7 +32,7 @@ public class ModItems {
         ITEMS.register(eventBus);
         eventBus.addListener(ModItems::addCreative);
 
-        PaxelsForDummies.LOG.info("Registering Items for \"Paxels for Dummies\"");
+        PaxelsForDummiesForge.LOG.info("Registering Items for \"Paxels for Dummies\"");
     }
 
     private static void addCreative(BuildCreativeModeTabContentsEvent event) {
